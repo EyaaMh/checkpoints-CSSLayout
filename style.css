@@ -1,0 +1,195 @@
+/*header*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.logo{
+   width: 240px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: grey;
+}
+a:hover{
+    color: #00b39b   ;
+}
+
+/*Partie1*/ 
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15vw ;
+    gap: 50px;
+}
+.pra{
+    display: flex;
+    gap: 30px;
+    font-family: Roboto,Arial,sans-serif;
+
+}
+.title{
+    color: #00b39b;
+    font-size: 30px;
+    font-weight:  300 ;
+    font-family: Work Sans,Arial,sans-serif;
+    
+
+}
+
+/*partie2:cartes*/
+
+/*carte 1*/
+.icon1{
+    width: 40px;
+}
+.carte1{
+    background-color: #00ccb1;
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2em 2em ; 
+    font-size: 20px;
+    width: 30%;
+   
+}
+.text1{
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    line-height: 40px;
+    font-weight: bold;
+    font-family:Work Sans,Arial,sans-serif;
+    font-weight: 500 ;
+    font-size: 30px;
+
+ 
+}
+.text1_1{
+    color: rgb(255, 255, 255)  ;
+    padding: 10px 0;
+    line-height: 40px;
+    font-weight: bold;
+    font-family:Work Sans,Arial,sans-serif ;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+select{
+    width: 40%;
+}
+p{
+    margin:  0 !important   ;
+}
+
+/*position des cartes */
+.carte-groupe{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+
+/*les buttons */
+select{
+    border: 0;
+    background-color: transparent;
+    color: white;
+}
+option{
+    background-color: white;
+    color: black;
+}
+
+/*carte 2*/
+.icon2{
+    width: 40px;
+}
+.carte2{
+    background-color:#3d83df; 
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2em 2em ; 
+    font-size: 20px;
+    width: 30%;
+    
+
+}
+    
+.text2{
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    line-height: 40px;
+    font-weight: bold;
+    font-family:Work Sans,Arial,sans-serif;
+    font-weight: 500 ;
+    font-size: 30px;
+
+
+}
+.text2_2{
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    line-height: 40px;
+    font-weight: bold;
+    font-family:Work Sans,Arial,sans-serif ;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+    
+ 
+/*carte3*/
+.icon3{
+    width: 40px;
+}
+.carte3{
+    background-color:#1b2734; 
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2em 2em ; 
+    font-size: 20px;
+    width: 30%;
+}
+.text3{
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    line-height: 40px;
+    font-weight: bold;
+    font-family:Work Sans,Arial,sans-serif;
+    font-weight: 500 ;
+    font-size: 30px;
+ 
+}
+.text3_3{
+    color: rgb(255, 255, 255)  ;
+    padding: 10px 0;
+    line-height: 40px;
+    font-weight: bold;
+    font-family:Work Sans,Arial,sans-serif ;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.selec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+
